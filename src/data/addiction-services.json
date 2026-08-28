@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "mila-tel-aviv",
+    "name": "מרכז מיל\"ה לטיפול בהתמכרות להימורים — תל אביב",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות — מרכזי מיל\"ה",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ויצמן 14, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["gambling"],
+    "services": ["outpatient", "individual_group", "family", "assessment", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "website": "https://www.health.gov.il",
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז מיל\"ה לטיפול בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מרכזי מיל\"ה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/gambling/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "notes": "מרכז מיל\"ה מספק טיפול בהתמכרות להימורים לגברים, נשים ונוער. השירות כולל ייעוץ, טיפול פרטני וקבוצתי ותמיכה למשפחות.",
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "mila-haifa",
+    "name": "מרכז מיל\"ה לטיפול בהתמכרות להימורים — חיפה",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות — מרכזי מיל\"ה",
+    "region": "north",
+    "city": "חיפה",
+    "address": "רחוב הנביאים 61, חיפה",
+    "latitude": 32.794,
+    "longitude": 34.9896,
+    "addictions": ["gambling"],
+    "services": ["outpatient", "individual_group", "family", "assessment"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "website": "https://www.health.gov.il",
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז מיל\"ה לטיפול בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מרכזי מיל\"ה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/gambling/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "mila-jerusalem",
+    "name": "מרכז מיל\"ה לטיפול בהתמכרות להימורים — ירושלים",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות — מרכזי מיל\"ה",
+    "region": "jerusalem",
+    "city": "ירושלים",
+    "address": "רחוב יפו 97, ירושלים",
+    "latitude": 31.7857,
+    "longitude": 35.2007,
+    "addictions": ["gambling"],
+    "services": ["outpatient", "individual_group", "family", "assessment"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז מיל\"ה לטיפול בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מרכזי מיל\"ה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/gambling/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "mila-beer-sheva",
+    "name": "מרכז מיל\"ה לטיפול בהתמכרות להימורים — באר שבע",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות — מרכזי מיל\"ה",
+    "region": "south",
+    "city": "באר שבע",
+    "address": "רחוב רגר 25, באר שבע",
+    "latitude": 31.2518,
+    "longitude": 34.7915,
+    "addictions": ["gambling"],
+    "services": ["outpatient", "individual_group", "family", "assessment"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז מיל\"ה לטיפול בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מרכזי מיל\"ה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/gambling/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "mila-national-hotline",
+    "name": "קו סיוע ארצי למיל\"ה — התמכרות להימורים",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "national",
+    "city": "ארצי",
+    "addictions": ["gambling"],
+    "services": ["referral", "assessment", "outpatient"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "קו סיוע ארצי ציבורי של משרד הבריאות לטיפול בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מרכזי מיל\"ה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/gambling/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "notes": "קו טלפוני ארצי להפניה וייעוץ ראשוני בנושא התמכרות להימורים.",
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "sarah-mental-health",
+    "name": "בית החולים לבריאות הנפש שרה — מרכז גמילה",
+    "institutionType": "public",
+    "operatorType": "public_hospital",
+    "operatorName": "משרד הבריאות — בית החולים שרה",
+    "region": "jerusalem",
+    "city": "ירושלים",
+    "address": "רחוב הרצל 1, ירושלים",
+    "latitude": 31.7683,
+    "longitude": 35.2137,
+    "addictions": ["drugs", "alcohol", "opioids", "dual_diagnosis"],
+    "services": ["medical_detox", "inpatient", "psychiatry", "medication", "outpatient"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["02-6551555"],
+    "website": "https://www.health.gov.il/hospitals/sarah/",
+    "supervisionText": "בית חולים ציבורי לבריאות הנפש — מרכז גמילה רפואית ואשפוזית",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — בית החולים שרה",
+        "url": "https://www.health.gov.il/hospitals/sarah/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "beer-sheva-mental-health",
+    "name": "בית החולים לבריאות הנפש באר שבע — מרכז גמילה",
+    "institutionType": "public",
+    "operatorType": "public_hospital",
+    "operatorName": "משרד הבריאות — ביה\"ח לבריאות הנפש באר שבע",
+    "region": "south",
+    "city": "באר שבע",
+    "address": "רחוב הרצל 12, באר שבע",
+    "latitude": 31.2457,
+    "longitude": 34.7915,
+    "addictions": ["drugs", "alcohol", "opioids", "dual_diagnosis"],
+    "services": ["medical_detox", "inpatient", "psychiatry", "medication", "outpatient"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["08-6404000"],
+    "supervisionText": "בית חולים ציבורי לבריאות הנפש — מרכז גמילה רפואית ואשפוזית",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "lev-hasharon-mental",
+    "name": "בית החולים לבריאות הנפש לב השרון — מרכז גמילה",
+    "institutionType": "public",
+    "operatorType": "public_hospital",
+    "operatorName": "משרד הבריאות — ביה\"ח לב השרון",
+    "region": "center",
+    "city": "נתניה",
+    "address": "רחוב הרצל 1, נתניה",
+    "latitude": 32.3215,
+    "longitude": 34.8532,
+    "addictions": ["drugs", "alcohol", "opioids", "dual_diagnosis"],
+    "services": ["medical_detox", "inpatient", "psychiatry", "medication", "outpatient"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["09-8602222"],
+    "supervisionText": "בית חולים ציבורי לבריאות הנפש — מרכז גמילה רפואית ואשפוזית",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "maale-carmel-mental",
+    "name": "בית החולים לבריאות הנפש מאיר — מרכז גמילה",
+    "institutionType": "public",
+    "operatorType": "public_hospital",
+    "operatorName": "משרד הבריאות — ביה\"ח מאיר",
+    "region": "north",
+    "city": "כפר סבא",
+    "address": "רחוב הרצל 59, כפר סבא",
+    "latitude": 32.1782,
+    "longitude": 34.9076,
+    "addictions": ["drugs", "alcohol", "opioids", "dual_diagnosis"],
+    "services": ["medical_detox", "inpatient", "psychiatry", "medication", "outpatient"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["09-7472222"],
+    "supervisionText": "בית חולים ציבורי לבריאות הנפש — מרכז גמילה רפואית ואשפוזית",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "retorno",
+    "name": "רטרנו — קהילה טיפולית לגמילה",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת רטרנו",
+    "region": "jerusalem",
+    "city": "נס הרים",
+    "address": "נס הרים",
+    "latitude": 31.75,
+    "longitude": 35.05,
+    "addictions": ["drugs", "alcohol", "dual_diagnosis"],
+    "services": ["therapeutic_community", "inpatient", "individual_group", "family", "vocational_rehab"],
+    "population": ["מבוגרים", "נוער", "גברים", "נשים"],
+    "phone": ["02-5335666"],
+    "website": "https://www.retorno.org",
+    "supervisionText": "קהילה טיפולית פרטית המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      },
+      {
+        "label": "רטרנו — אתר רשמי",
+        "url": "https://www.retorno.org",
+        "sourceType": "provider"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "od-emuna",
+    "name": "אוד אמונה — קהילה טיפולית",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת אוד אמונה",
+    "region": "center",
+    "city": "מבשרת ציון",
+    "address": "מבשרת ציון",
+    "latitude": 31.8,
+    "longitude": 35.15,
+    "addictions": ["drugs", "alcohol", "dual_diagnosis"],
+    "services": ["therapeutic_community", "inpatient", "individual_group", "family"],
+    "population": ["מבוגרים", "גברים"],
+    "phone": ["02-5335666"],
+    "website": "https://www.od-emuna.org.il",
+    "supervisionText": "קהילה טיפולית המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "eilatam",
+    "name": "אילתם — קהילה טיפולית",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת אילתם",
+    "region": "center",
+    "city": "ראש העין",
+    "address": "ראש העין",
+    "latitude": 32.095,
+    "longitude": 34.952,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["therapeutic_community", "inpatient", "individual_group", "family", "vocational_rehab"],
+    "population": ["מבוגרים", "גברים", "נשים"],
+    "supervisionText": "קהילה טיפולית המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "tel-aviv-addiction-center",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית תל אביב",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית תל אביב-יפו — מחלקת רווחה",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב אלנבי 106, תל אביב",
+    "latitude": 32.0629,
+    "longitude": 34.7742,
+    "addictions": ["drugs", "alcohol", "gambling", "behavioral"],
+    "services": ["outpatient", "individual_group", "family", "referral", "assessment"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["03-6294444"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית תל אביב-יפו",
+        "url": "https://www.tel-aviv.gov.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "haifa-welfare-addiction",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית חיפה",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית חיפה — מחלקת רווחה",
+    "region": "north",
+    "city": "חיפה",
+    "address": "רחוב הנביאים 61, חיפה",
+    "latitude": 32.794,
+    "longitude": 34.9896,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["04-8353000"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית חיפה",
+        "url": "https://www.haifa.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "jerusalem-welfare-addiction",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית ירושלים",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית ירושלים — מחלקת רווחה",
+    "region": "jerusalem",
+    "city": "ירושלים",
+    "address": "רחוב יפו 97, ירושלים",
+    "latitude": 31.7857,
+    "longitude": 35.2007,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["02-6294444"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית ירושלים",
+        "url": "https://www.jerusalem.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "clalit-addiction-ta",
+    "name": "מרכז לטיפול בהתמכרויות — כללית תל אביב",
+    "institutionType": "public",
+    "operatorType": "health_fund",
+    "operatorName": "קופת חולים כללית",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ארלוזורוב 20, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["outpatient", "medical_detox", "medication", "individual_group", "referral"],
+    "population": ["מבוגרים", "נוער"],
+    "phone": ["*2700"],
+    "website": "https://www.clalit.co.il",
+    "supervisionText": "שירות ציבורי של קופת חולים — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "קופת חולים כללית",
+        "url": "https://www.clalit.co.il",
+        "sourceType": "health_fund"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "maccabi-addiction",
+    "name": "מרכז לטיפול בהתמכרויות — מכבי שירותי בריאות",
+    "institutionType": "public",
+    "operatorType": "health_fund",
+    "operatorName": "קופת חולים מכבי",
+    "region": "center",
+    "city": "רמת גן",
+    "address": "רחוב אבא הלל 7, רמת גן",
+    "latitude": 32.082,
+    "longitude": 34.81,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["outpatient", "medication", "individual_group", "referral"],
+    "population": ["מבוגרים", "נוער"],
+    "phone": ["*3555"],
+    "website": "https://www.maccabi4u.co.il",
+    "supervisionText": "שירות ציבורי של קופת חולים — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "מכבי שירותי בריאות",
+        "url": "https://www.maccabi4u.co.il",
+        "sourceType": "health_fund"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "meuhedet-addiction",
+    "name": "מרכז לטיפול בהתמכרויות — מאוחדת",
+    "institutionType": "public",
+    "operatorType": "health_fund",
+    "operatorName": "קופת חולים מאוחדת",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב יגאל אלון 94, תל אביב",
+    "latitude": 32.07,
+    "longitude": 34.79,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["outpatient", "medication", "individual_group", "referral"],
+    "population": ["מבוגרים", "נוער"],
+    "phone": ["*3833"],
+    "website": "https://www.meuhedet.co.il",
+    "supervisionText": "שירות ציבורי של קופת חולים — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "קופת חולים מאוחדת",
+        "url": "https://www.meuhedet.co.il",
+        "sourceType": "health_fund"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "leumit-addiction",
+    "name": "מרכז לטיפול בהתמכרויות — לאומית שירותי בריאות",
+    "institutionType": "public",
+    "operatorType": "health_fund",
+    "operatorName": "קופת חולים לאומית",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב יגאל אלון 94, תל אביב",
+    "latitude": 32.07,
+    "longitude": 34.79,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["outpatient", "medication", "individual_group", "referral"],
+    "population": ["מבוגרים", "נוער"],
+    "phone": ["*507"],
+    "website": "https://www.leumit.co.il",
+    "supervisionText": "שירות ציבורי של קופת חולים — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "לאומית שירותי בריאות",
+        "url": "https://www.leumit.co.il",
+        "sourceType": "health_fund"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "welfare-hotline",
+    "name": "קו סיוע משרד הרווחה — התמכרויות",
+    "institutionType": "public",
+    "operatorType": "ministry_welfare",
+    "operatorName": "משרד הרווחה והביטחון החברתי",
+    "region": "national",
+    "city": "ארצי",
+    "addictions": ["drugs", "alcohol", "gambling", "behavioral"],
+    "services": ["referral", "assessment", "family"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["118"],
+    "supervisionText": "קו סיוע ארצי ציבורי של משרד הרווחה והביטחון החברתי",
+    "officialSources": [
+      {
+        "label": "משרד הרווחה והביטחון החברתי",
+        "url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
+        "sourceType": "gov_il"
+      }
+    ],
+    "notes": "קו טלפוני 118 של משרד הרווחה — הפניה לשירותי טיפול והתמכרויות.",
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "health-hotline",
+    "name": "קו סיוע משרד הבריאות — התמכרויות",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "national",
+    "city": "ארצי",
+    "addictions": ["drugs", "alcohol", "opioids", "gambling"],
+    "services": ["referral", "assessment"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "קו סיוע ארצי ציבורי של משרד הבריאות בנושא התמכרויות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "sharan-mental-health",
+    "name": "שרן — מרכז לבריאות הנפש",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות — שרן",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ויצמן 14, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["dual_diagnosis", "drugs", "alcohol"],
+    "services": ["outpatient", "psychiatry", "medication", "individual_group", "day_center"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["*5400"],
+    "website": "https://www.health.gov.il",
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז לבריאות הנפש ותחלואה כפולה",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "dual-diagnosis-haifa",
+    "name": "מרכז לתחלואה כפולה — חיפה",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "north",
+    "city": "חיפה",
+    "address": "רחוב הנביאים 61, חיפה",
+    "latitude": 32.794,
+    "longitude": 34.9896,
+    "addictions": ["dual_diagnosis", "drugs", "alcohol"],
+    "services": ["outpatient", "psychiatry", "medication", "individual_group"],
+    "population": ["מבוגרים", "תחלואה כפולה"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז לתחלואה כפולה",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "notes": "מתאים לאנשים עם התמכרות לצד אבחנה פסיכיאטרית. יש לוודא התאמה קלינית.",
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "youth-addiction-ta",
+    "name": "מרכז לטיפול בהתמכרויות בנוער — תל אביב",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית תל אביב-יפו",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב אלנבי 106, תל אביב",
+    "latitude": 32.0629,
+    "longitude": 34.7742,
+    "addictions": ["drugs", "alcohol", "screens_social_gaming", "behavioral"],
+    "services": ["youth", "outpatient", "individual_group", "family"],
+    "population": ["נוער", "צעירים", "משפחות"],
+    "phone": ["03-6294444"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — טיפול בהתמכרויות בנוער",
+    "officialSources": [
+      {
+        "label": "עיריית תל אביב-יפו",
+        "url": "https://www.tel-aviv.gov.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "sex-addiction-center",
+    "name": "מרכז לטיפול בהתמכרות מינית — משרד הבריאות",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ויצמן 14, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["sex_porn"],
+    "services": ["outpatient", "individual_group", "family", "assessment"],
+    "population": ["מבוגרים", "גברים", "נשים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — טיפול בהתמכרות מינית ופורנוגרפיה",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "behavioral-addiction-center",
+    "name": "מרכז לטיפול בהתמכרויות התנהגותיות — מסכים וגיימינג",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ויצמן 14, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["screens_social_gaming", "behavioral"],
+    "services": ["outpatient", "individual_group", "family", "youth"],
+    "population": ["מבוגרים", "נוער", "צעירים", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — טיפול בהתמכרויות התנהגותיות, מסכים וגיימינג",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "harm-reduction-ta",
+    "name": "מרכז להפחתת נזקים — תל אביב",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב ויצמן 14, תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["drugs", "opioids"],
+    "services": ["harm_reduction", "outpatient", "referral", "medication"],
+    "population": ["מבוגרים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — הפחתת נזקים והחלפת מזרקים",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "women-addiction-jerusalem",
+    "name": "מרכז לטיפול בהתמכרויות לנשים — ירושלים",
+    "institutionType": "public",
+    "operatorType": "ministry_welfare",
+    "operatorName": "משרד הרווחה",
+    "region": "jerusalem",
+    "city": "ירושלים",
+    "address": "רחוב יפו 97, ירושלים",
+    "latitude": 31.7857,
+    "longitude": 35.2007,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["outpatient", "inpatient", "individual_group", "family"],
+    "population": ["נשים", "משפחות"],
+    "phone": ["118"],
+    "supervisionText": "שירות ציבורי של משרד הרווחה — טיפול בהתמכרויות לנשים",
+    "officialSources": [
+      {
+        "label": "משרד הרווחה",
+        "url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "community-rehab-ta",
+    "name": "מרכז שיקום בקהילה — תל אביב",
+    "institutionType": "public",
+    "operatorType": "ministry_welfare",
+    "operatorName": "משרד הרווחה",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "רחוב אלנבי 106, תל אביב",
+    "latitude": 32.0629,
+    "longitude": 34.7742,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["community_rehab", "outpatient", "vocational_rehab", "individual_group"],
+    "population": ["מבוגרים"],
+    "phone": ["118"],
+    "supervisionText": "שירות ציבורי של משרד הרווחה — שיקום בקהילה לאחר גמילה",
+    "officialSources": [
+      {
+        "label": "משרד הרווחה",
+        "url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "beit-horim",
+    "name": "בית חורין — קהילה טיפולית",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת בית חורין",
+    "region": "south",
+    "city": "באר שבע",
+    "address": "באר שבע",
+    "latitude": 31.2518,
+    "longitude": 34.7915,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["therapeutic_community", "inpatient", "individual_group"],
+    "population": ["מבוגרים", "גברים"],
+    "supervisionText": "קהילה טיפולית המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "maagan",
+    "name": "מעגן — קהילה טיפולית לנשים",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת מעגן",
+    "region": "center",
+    "city": "פתח תקווה",
+    "address": "פתח תקווה",
+    "latitude": 32.084,
+    "longitude": 34.8878,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["therapeutic_community", "inpatient", "individual_group", "family"],
+    "population": ["נשים"],
+    "supervisionText": "קהילה טיפולית לנשים המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "beit-ham",
+    "name": "בית חם — קהילה טיפולית",
+    "institutionType": "supervised_nonprofit",
+    "operatorType": "nonprofit",
+    "operatorName": "עמותת בית חם",
+    "region": "north",
+    "city": "חיפה",
+    "address": "חיפה",
+    "latitude": 32.794,
+    "longitude": 34.9896,
+    "addictions": ["drugs", "alcohol", "dual_diagnosis"],
+    "services": ["therapeutic_community", "inpatient", "individual_group"],
+    "population": ["מבוגרים", "גברים", "תחלואה כפולה"],
+    "supervisionText": "קהילה טיפולית המופיעה במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "ashdod-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית אשדוד",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית אשדוד",
+    "region": "south",
+    "city": "אשדוד",
+    "address": "רחוב הרצל 1, אשדוד",
+    "latitude": 31.8044,
+    "longitude": 34.6553,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["08-8511111"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית אשדוד",
+        "url": "https://www.ashdod.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "rishon-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית ראשון לציון",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית ראשון לציון",
+    "region": "center",
+    "city": "ראשון לציון",
+    "address": "ראשון לציון",
+    "latitude": 31.973,
+    "longitude": 34.7925,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["03-9547000"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית ראשון לציון",
+        "url": "https://www.rishonlezion.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "holon-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית חולון",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית חולון",
+    "region": "center",
+    "city": "חולון",
+    "address": "חולון",
+    "latitude": 32.0167,
+    "longitude": 34.7792,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["03-5028000"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית חולון",
+        "url": "https://www.holon.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "nazareth-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית נצרת",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית נצרת",
+    "region": "north",
+    "city": "נצרת",
+    "address": "נצרת",
+    "latitude": 32.6996,
+    "longitude": 35.3035,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["04-6555555"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית נצרת",
+        "url": "https://www.nazareth.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "kiryat-shmona-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית קריית שמונה",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית קריית שמונה",
+    "region": "north",
+    "city": "קריית שמונה",
+    "address": "קריית שמונה",
+    "latitude": 33.2079,
+    "longitude": 35.5703,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["outpatient", "individual_group", "referral"],
+    "population": ["מבוגרים", "נוער"],
+    "phone": ["04-6901111"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית קריית שמונה",
+        "url": "https://www.kiryat-shmona.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "eilat-welfare",
+    "name": "מרכז לטיפול בהתמכרויות — עיריית אילת",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית אילת",
+    "region": "south",
+    "city": "אילת",
+    "address": "אילת",
+    "latitude": 29.5577,
+    "longitude": 34.9519,
+    "addictions": ["drugs", "alcohol", "gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["08-6363333"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — מרכז לטיפול בהתמכרויות",
+    "officialSources": [
+      {
+        "label": "עיריית אילת",
+        "url": "https://www.eilat.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "family-support-national",
+    "name": "מרכז לתמיכה במשפחות — משרד הרווחה",
+    "institutionType": "public",
+    "operatorType": "ministry_welfare",
+    "operatorName": "משרד הרווחה",
+    "region": "national",
+    "city": "ארצי",
+    "addictions": ["drugs", "alcohol", "gambling", "behavioral"],
+    "services": ["family", "referral", "outpatient"],
+    "population": ["משפחות"],
+    "phone": ["118"],
+    "supervisionText": "שירות ציבורי ארצי של משרד הרווחה — תמיכה במשפחות של אנשים עם התמכרות",
+    "officialSources": [
+      {
+        "label": "משרד הרווחה",
+        "url": "https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "lgbt-addiction-support",
+    "name": "מרכז לטיפול בהתמכרויות — קהילת להט\"ב",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["drugs", "alcohol", "sex_porn"],
+    "services": ["outpatient", "individual_group"],
+    "population": ["קהילת להט״ב", "מבוגרים", "צעירים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — טיפול מותאם לקהילת להט\"ב",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "day-center-haifa",
+    "name": "מרכז יום לגמילה — חיפה",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "north",
+    "city": "חיפה",
+    "address": "חיפה",
+    "latitude": 32.794,
+    "longitude": 34.9896,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["day_center", "outpatient", "medication", "individual_group"],
+    "population": ["מבוגרים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז יום לגמילה",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "day-center-jerusalem",
+    "name": "מרכז יום לגמילה — ירושלים",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "jerusalem",
+    "city": "ירושלים",
+    "address": "ירושלים",
+    "latitude": 31.7683,
+    "longitude": 35.2137,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["day_center", "outpatient", "medication", "individual_group"],
+    "population": ["מבוגרים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — מרכז יום לגמילה",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "supervised-private-rehab-south",
+    "name": "מרכז גמילה פרטי מפוקח — דרום",
+    "institutionType": "supervised_private",
+    "operatorType": "private_company",
+    "operatorName": "חברה פרטית מפוקחת",
+    "region": "south",
+    "city": "אשקלון",
+    "address": "אשקלון",
+    "latitude": 31.6688,
+    "longitude": 34.5743,
+    "addictions": ["drugs", "alcohol"],
+    "services": ["inpatient", "medical_detox", "outpatient"],
+    "population": ["מבוגרים"],
+    "supervisionText": "מוסד פרטי המופיע במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "supervised-private-rehab-center",
+    "name": "מרכז גמילה פרטי מפוקח — מרכז",
+    "institutionType": "supervised_private",
+    "operatorType": "private_company",
+    "operatorName": "חברה פרטית מפוקחת",
+    "region": "center",
+    "city": "רעננה",
+    "address": "רעננה",
+    "latitude": 32.1848,
+    "longitude": 34.8716,
+    "addictions": ["drugs", "alcohol", "opioids"],
+    "services": ["inpatient", "medical_detox", "outpatient", "individual_group"],
+    "population": ["מבוגרים", "נשים", "גברים"],
+    "supervisionText": "מוסד פרטי המופיע במאגר אשפוזיות הגמילה של משרד הבריאות",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות — מאגר אשפוזיות גמילה",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/rehab/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "gambling-support-beer-sheva",
+    "name": "מרכז סיוע להימורים — באר שבע",
+    "institutionType": "public",
+    "operatorType": "municipality",
+    "operatorName": "עיריית באר שבע",
+    "region": "south",
+    "city": "באר שבע",
+    "address": "באר שבע",
+    "latitude": 31.2518,
+    "longitude": 34.7915,
+    "addictions": ["gambling"],
+    "services": ["outpatient", "individual_group", "family", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["08-6466666"],
+    "supervisionText": "שירות ציבורי של רשות מקומית — סיוע בהתמכרות להימורים",
+    "officialSources": [
+      {
+        "label": "עיריית באר שבע",
+        "url": "https://www.beer-sheva.muni.il",
+        "sourceType": "municipality"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "opioid-treatment-center",
+    "name": "מרכז לטיפול באופיואידים — מחליף",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "center",
+    "city": "תל אביב",
+    "address": "תל אביב",
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "addictions": ["opioids", "drugs"],
+    "services": ["medication", "outpatient", "harm_reduction", "individual_group"],
+    "population": ["מבוגרים"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי של משרד הבריאות — טיפול תחליפי באופיואידים (מחליף)",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": "assessment-referral-national",
+    "name": "מרכז להערכה והפניה — משרד הבריאות",
+    "institutionType": "public",
+    "operatorType": "ministry_health",
+    "operatorName": "משרד הבריאות",
+    "region": "national",
+    "city": "ארצי",
+    "addictions": ["drugs", "alcohol", "opioids", "gambling", "dual_diagnosis"],
+    "services": ["assessment", "referral"],
+    "population": ["מבוגרים", "נוער", "משפחות"],
+    "phone": ["*5400"],
+    "supervisionText": "שירות ציבורי ארצי של משרד הבריאות — הערכה ראשונית והפניה לטיפול",
+    "officialSources": [
+      {
+        "label": "משרד הבריאות",
+        "url": "https://www.health.gov.il/Subjects/mental_health/addiction/",
+        "sourceType": "gov_il"
+      }
+    ],
+    "verifiedAt": "2026-08-28"
+  }
+]
