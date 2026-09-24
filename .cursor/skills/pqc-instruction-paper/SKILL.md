@@ -10,7 +10,7 @@ Rewrite `docs/pqc-regulated-instructions.md` from the live pages in `pqc/sources
 ## Every run
 
 1. Read `pqc/sources.json`. Fetch every `url`. Follow redirects. Prefer the final publication over a blog summary of it.
-2. Extract only instructions a regulated organization can act on: algorithms, parameters, timelines, protocols, certificates, keys, hashes, vaults, and starting-phase duties.
+2. Extract only instructions a regulated organization can act on: strategic and organizational duties, peer duties (suppliers, partners, clients, SaaS providers, and cloud providers), and technical duties for algorithms, parameters, timelines, protocols, certificates, keys, hashes, and vaults.
 3. Replace the whole markdown file. Do not append a second copy of an old run.
 4. Open a pull request when the file changes. Leave the branch unchanged when every fetched page still supports the current bullets.
 5. Email the finished markdown file on every run, including a run that does not change the paper. Send it with the connected Gmail account `avivizel@gmail.com` to `aviv@il.ibm.com`. Attach `docs/pqc-regulated-instructions.md` as `pqc-regulated-instructions.md` (`text/markdown`). The plain-text body states the run date, whether the paper changed, and the next run date. Do not paste the paper into the body.
@@ -19,6 +19,10 @@ Rewrite `docs/pqc-regulated-instructions.md` from the live pages in `pqc/sources
 ## Bullet rules
 
 - One instruction per bullet. Split combined obligations.
+- Sort every instruction into the action waves in the output skeleton. Wave 1 is the most important wave. Inside a wave, action 1 is the most important action. Do not regroup by technology.
+- Keep strategic and organizational instructions in the same waves as the technical work they govern. Do not leave them in a side section.
+- Peer instructions name the other party: supplier, partner, client, SaaS provider, or cloud provider.
+- Start each action with its priority number, then one of `Strategic`, `Organizational`, `Peer`, or `Technical`, then the instruction, then `Recommended owner: <role>.` The owner is staffing guidance for this paper. Do not imply the cited document appointed that role.
 - End every bullet with the source in this form: `(Source: Organization name, [document title](url))`.
 - Use the page you actually fetched. If a page fails, put one bullet for that source under `## Unverified this run` and do not carry forward claims that depended only on it.
 - Keep conflicting rules as separate bullets. Name the jurisdiction in the instruction. Do not average them into one parameter set.
@@ -39,17 +43,15 @@ Rewrite `docs/pqc-regulated-instructions.md` from the live pages in `pqc/sources
 Use these headings, in order:
 
 - Status
-- How to use this paper
+- Executive summary
+- How to read an action
 - Precedence
-- Algorithms and parameters
-- Timelines
-- TLS and other protocols
-- Certificates, keys, and hashing
-- Vaults and HSMs
-- Starting phase
-- Israel
-- European Union and national agencies
-- United States
-- United Kingdom, Canada, Australia, and Japan
-- Platform practice
+- Wave 1 — Govern and discover
+- Wave 2 — Protect data that can be harvested now
+- Wave 3 — Align suppliers, partners, clients, SaaS, and cloud
+- Wave 4 — Move signatures, certificates, keys, and vaults
+- Wave 5 — Finish on the published dates
 - Unverified this run
+- Appendix: sources
+
+Open with an executive summary a board member can read without the waves. Close with an appendix that lists every entry in `pqc/sources.json` (name, role, jurisdiction, url). Jurisdiction-specific parameter choices stay inside the wave where the action sits. Do not add a second copy of those choices grouped by country.
