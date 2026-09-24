@@ -52,6 +52,7 @@ Use these headings, in order:
 - Wave 4 — Move signatures, certificates, keys, and vaults
 - Wave 5 — Finish on the published dates
 - Unverified this run
+- Doto list
 - Appendix: sources
 
-Open with an executive summary a board member can read without the waves. Close with an appendix that lists every entry in `pqc/sources.json` (name, role, jurisdiction, url). Jurisdiction-specific parameter choices stay inside the wave where the action sits. Do not add a second copy of those choices grouped by country.
+Open with an executive summary a board member can read without the waves. Before the appendix, add `## Doto list`: one markdown table of every numbered action in the waves, plus the unverified item. Sort rows from the immediate action to the furthest published date. Columns: Order, When, Wave, Type, Action, Recommended owner. The Action cell repeats the instruction and omits the source citation. Use only dates and sequencing the actions already state. Do not invent a year. An action that starts now and names a later finish date appears once, among the immediate rows, and the When cell states both. Close with an appendix that lists every entry in `pqc/sources.json` (name, role, jurisdiction, url). Jurisdiction-specific parameter choices stay inside the wave where the action sits. Do not add a second copy of those choices grouped by country.

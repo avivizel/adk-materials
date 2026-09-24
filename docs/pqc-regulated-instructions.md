@@ -20,6 +20,8 @@ Five waves follow, most important first. Inside each wave, action 1 is the most 
 4. Move signatures, certificates, keys, and vaults.
 5. Finish on the published dates (about 2030 for high-risk and deprecation, about 2035 for broad completion).
 
+The doto list before the appendix lists every action again, from the immediate action to the furthest date.
+
 ## How to read an action
 
 - Apply every bullet whose source binds your organization, then the algorithm and protocol bullets that no stricter local rule overrides. (Source: NIST IR 8547 transition draft, [IR 8547 initial public draft](https://csrc.nist.gov/pubs/ir/8547/ipd))
@@ -167,6 +169,122 @@ These dates are the end state of the roadmap from Wave 1. They are mandatory. Th
 ## Unverified this run
 
 - NÚKIB (Czech Republic), CCN (Spain), NSM (Norway), New Zealand NCSC, Singapore CSA, and South Korean cryptographic authorities were not given their own catalog URLs on this run; use the national authority's current publication before citing a parameter set for those jurisdictions. Recommended owner: CISO. (Source: NIST PQC project, [Post-Quantum Cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography))
+
+## Doto list
+
+Rows run from the immediate action to the furthest published date. Each row is one action from the waves above. The When column uses only the dates and the sequencing those actions already state. An action that starts now and finishes on a later date appears once, here at the start, and When states the finish date.
+
+| Order | When | Wave | Type | Action | Recommended owner |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Now; high-risk migration by 2030; remaining migration by 2035 | 1 Govern and discover | Strategic | Name an owner and publish a roadmap with discovery finished, high-risk migration by 2030, and remaining migration by 2035. | CISO, accountable to the board |
+| 2 | Now; the banking plan was due within one year of 7 January 2025 | 1 Govern and discover | Strategic | The board and management discuss an initial quantum preparedness plan. For banking corporations and licensed payment service providers, that plan was due to Banking Supervision within one year of 7 January 2025. | Board and executive management |
+| 3 | Now | 1 Govern and discover | Organizational | Banking corporations and licensed payment service providers raise awareness of quantum risk and keep watching PQC and QKD developments. | CISO |
+| 4 | Now | 1 Govern and discover | Organizational | Review the risk and the operational impact of moving to quantum-resistant algorithms. | CISO, with business owners |
+| 5 | Now | 1 Govern and discover | Organizational | Map organizational cyber assets, including protocol, algorithm, key-exchange frequency, hash, and the confidentiality lifetime of data at rest, in transit, and in processing. | CISO, with application owners |
+| 6 | Now | 1 Govern and discover | Organizational | Inventory every key, certificate, protocol, library, and module, including algorithm, owner, and how long the data must stay confidential. | CISO and PKI engineering |
+| 7 | Now | 1 Govern and discover | Organizational | Critical infrastructure operators inventory cryptography and prioritize harvest-now-decrypt-later exposure using the joint CISA, NIST, and NSA quantum-readiness guidance. | CISO |
+| 8 | Now | 1 Govern and discover | Organizational | Banking corporations and licensed payment service providers map and manage encrypted information assets under Proper Conduct of Banking Business Directive 364. | Sector compliance lead, with the CISO |
+| 9 | Now | 1 Govern and discover | Strategic | Stop commissioning new systems that cannot negotiate a PQC or hybrid key establishment. | Enterprise architecture and procurement |
+| 10 | Now | 1 Govern and discover | Organizational | Instruct development teams to use the PQC algorithms NIST recommends at the time. | Engineering leadership |
+| 11 | Now | 1 Govern and discover | Organizational | Banking corporations and licensed payment service providers prepare staff, a test environment, and an infrastructure assessment for post-quantum encryption. | CISO |
+| 12 | Now; complete the migration by 2035 | 1 Govern and discover | Strategic | Complete the UK migration by 2035, with large organisations spending the first two to three years on discovery, assessment, and an initial plan. | CISO |
+| 13 | Now | 1 Govern and discover | Strategic | Member States coordinate their public-sector and critical-infrastructure migration through the NIS Cooperation Group roadmap. | Public-sector program owner |
+| 14 | Now | 1 Govern and discover | Strategic | Federal civilian systems follow NIST PQC standards and the IR 8547 transition approach. | US federal system owner |
+| 15 | Now | 1 Govern and discover | Strategic | National security systems follow CNSSP 15 and CNSA 2.0, not the general internet default of ML-KEM-768 and ML-DSA-65. | National-security system owner |
+| 16 | Now | 1 Govern and discover | Strategic | Follow the Government of Canada roadmap in ITSM.40.001 for Canadian federal systems. | Canadian federal system owner |
+| 17 | Now | 1 Govern and discover | Strategic | Australian government systems follow the Australian Signals Directorate's planning guidance for post-quantum cryptography. | Australian government system owner |
+| 18 | Now | 1 Govern and discover | Strategic | Japanese government systems follow CRYPTREC cryptographic evaluation. | Japanese government system owner |
+| 19 | Now | 1 Govern and discover | Strategic | German regulated systems take algorithm and hybrid choices from the current BSI TR-02102-1, not from another country's parameter table. | Cryptography engineering |
+| 20 | Now | 1 Govern and discover | Strategic | French regulated systems take algorithm choices from the current ANSSI PQC position. | Cryptography engineering |
+| 21 | Now | 1 Govern and discover | Strategic | Dutch regulated systems take algorithm choices from the current NLNCSA migration guidance. | Cryptography engineering |
+| 22 | Now | 1 Govern and discover | Strategic | US financial institutions track ASC X9 quantum-safe profiles in addition to NIST. | Sector compliance lead |
+| 23 | Now | 1 Govern and discover | Strategic | Cardholder-data environments follow PCI SSC cryptographic requirements as they are updated for PQC. | Sector compliance lead |
+| 24 | Now | 1 Govern and discover | Strategic | If QKD is assessed, include classical side channels in the review and do not treat QKD as a substitute for PQC. | CISO |
+| 25 | Now | 1 Govern and discover | Strategic | NSA does not approve quantum key distribution for protecting national security systems. | National-security system owner |
+| 26 | Now | 1 Govern and discover | Organizational | Use the ENISA April 2026 hybridisation report as a map of standards work, and treat it as technical input only: ENISA states that the report is not itself a recommendation. | Cryptography engineering |
+| 27 | Now | 1 Govern and discover | Organizational | Review NIST cryptography publications on a repeating schedule. | CISO |
+| 28 | Now | 1 Govern and discover | Organizational | Re-read this paper when FIPS 206, the HQC FIPS, or a final IR 8547 is published. | CISO |
+| 29 | Now | 2 Protect data that can be harvested now | Technical | Treat finite-field and elliptic-curve Diffie-Hellman and MQV, RSA key establishment, RSA signatures, ECDSA, and EdDSA as the quantum-vulnerable public-key mechanisms named for the transition. | Cryptography engineering |
+| 30 | Now | 2 Protect data that can be harvested now | Technical | Prioritise IPsec/IKEv2, SSH, QUIC, and TLS key establishment on links that carry long-lived secrets. | Network engineering and application owners |
+| 31 | Now | 2 Protect data that can be harvested now | Technical | Deploy hybrid key agreement in TLS 1.3 before migrating authentication certificates. | Infrastructure engineering |
+| 32 | Now | 2 Protect data that can be harvested now | Technical | Enable X25519MLKEM768 for public internet TLS. | Infrastructure engineering |
+| 33 | Now | 2 Protect data that can be harvested now | Technical | Use ML-KEM from FIPS 203 for new post-quantum key establishment. | Cryptography engineering |
+| 34 | Now | 2 Protect data that can be harvested now | Technical | For general internet key establishment, use ML-KEM-768 inside a hybrid. | Cryptography engineering |
+| 35 | Now | 2 Protect data that can be harvested now | Technical | For US national security systems, use ML-KEM-1024 for key establishment at every classification level. | National-security system owner |
+| 36 | Now | 2 Protect data that can be harvested now | Technical | Use perfect forward secrecy on existing protocols. | Infrastructure engineering |
+| 37 | Now | 2 Protect data that can be harvested now | Technical | Shorten key and session lifetimes while classical public-key algorithms remain in use. | CISO and infrastructure engineering |
+| 38 | Now | 2 Protect data that can be harvested now | Technical | For new Israeli systems, prefer longer symmetric keys such as AES-256 and SHA-512 while the PQC migration proceeds. | Cryptography engineering |
+| 39 | Now | 2 Protect data that can be harvested now | Technical | Use AES-256 for new high-assurance symmetric encryption. | Cryptography engineering |
+| 40 | Now | 2 Protect data that can be harvested now | Technical | Use SHA-384 or SHA-512 for new long-lived hashes in CNSA 2.0 systems. | Cryptography engineering |
+| 41 | Now | 2 Protect data that can be harvested now | Technical | Accept hybrid schemes during the migration. | Cryptography engineering |
+| 42 | Now | 2 Protect data that can be harvested now | Strategic | Prefer standardised hybrid solutions for the European migration where they are suitable. | Cryptography engineering |
+| 43 | Now | 2 Protect data that can be harvested now | Technical | Build hybrids so the classical half can be removed later. | Cryptography engineering |
+| 44 | Now | 2 Protect data that can be harvested now | Technical | Run operational UK systems on final RFCs, not on Internet-Drafts. | Cryptography engineering |
+| 45 | Now | 2 Protect data that can be harvested now | Technical | UK operational cryptography uses final NIST standards and published RFCs. | Cryptography engineering |
+| 46 | Now | 2 Protect data that can be harvested now | Technical | Use SecP256r1MLKEM768 when both shares must come from FIPS-approved mechanisms and P-256 is the certified curve. | Cryptography engineering |
+| 47 | Now | 2 Protect data that can be harvested now | Technical | Use SecP384r1MLKEM1024 for high-assurance and CNSA-aligned TLS. | Cryptography engineering |
+| 48 | Now | 2 Protect data that can be harvested now | Technical | Pilot SecP384r1MLKEM1024 only where CNSA or an equivalent high-assurance profile applies. | Cryptography engineering |
+| 49 | Now | 2 Protect data that can be harvested now | Technical | For a FIPS key derivation of X25519MLKEM768, certify the ML-KEM implementation, because the ML-KEM secret is first. | Cryptography engineering |
+| 50 | Now | 2 Protect data that can be harvested now | Technical | For a FIPS key derivation of the NIST-curve hybrids, certify the ECDH implementation, because the ECDH secret is first. | Cryptography engineering |
+| 51 | Now | 2 Protect data that can be harvested now | Technical | Implement KEM definitions, security properties, and hybrid combiners as specified in SP 800-227. | Cryptography engineering |
+| 52 | Now | 2 Protect data that can be harvested now | Technical | For US national security IKEv2, keep a classical establishment step where the ML-KEM-1024 public key does not fit in the unencrypted messages, and fortify it with ML-KEM-1024. | National-security system owner |
+| 53 | Now | 2 Protect data that can be harvested now | Technical | Pilot X25519MLKEM768 on external TLS and record handshake size and middlebox failures. | Infrastructure engineering |
+| 54 | Now; default after October 2026; required after October 2027 | 2 Protect data that can be harvested now | Technical | Platform practice: enable X25519MLKEM768 on Google Cloud load balancers; Google Cloud turns it on by default after October 2026 and requires it after October 2027. | Cloud platform owner |
+| 55 | Now | 2 Protect data that can be harvested now | Technical | Platform practice: on Windows 11 and Windows Server 2025, use the SymCrypt and CNG ML-KEM and ML-DSA APIs, and require TLS 1.3 before enabling hybrid key exchange. | Infrastructure engineering |
+| 56 | Now | 2 Protect data that can be harvested now | Technical | Keep existing rotation, audit, and separation-of-duties controls, and wrap ML-KEM session keys with AES-256-GCM or another approved mode. | Vault operations |
+| 57 | Now; finish deployed software and firmware signatures by 2030 | 4 Move signatures, certificates, keys, and vaults | Technical | For US national security systems, sign new software and firmware with CNSA 2.0 algorithms, and finish deployed software and firmware signatures by 2030. | Product security |
+| 58 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | For firmware and software signing, use LMS or XMSS from SP 800-208 when the signer can enforce state in hardware. | Product security |
+| 59 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | NSA prefers LMS with SHA-256/192 for software and firmware signing, and approves the other SP 800-208 parameter sets. | National-security system owner |
+| 60 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Put LMS and XMSS signing and state management in hardware, and design backup so the counter cannot rewind. | Vault operations |
+| 61 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Treat an LMS or XMSS private key as a counter: one signer, monotonic state, no reuse after backup or restore. | Vault operations |
+| 62 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | CNSA 2.0 does not include SLH-DSA; national security systems follow the CNSA algorithm list instead. | National-security system owner |
+| 63 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Reject pre-standard Kyber, Dilithium, and SPHINCS+ deployments; they are not interoperable with FIPS 203, 204, and 205. | Cryptography engineering |
+| 64 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Keep FN-DSA (planned FIPS 206) out of production until the FIPS is final and modules are validated. | Cryptography engineering |
+| 65 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Treat HQC as selected, not yet a production FIPS; wait for the final standard and validated modules. | Cryptography engineering |
+| 66 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Platform practice: Chrome is not adding ordinary X.509 post-quantum certificates to the public Chrome Root Store; watch the IETF PLANTS Merkle Tree Certificate work before planning public-web authentication. | PKI engineering |
+| 67 | Now | 4 Move signatures, certificates, keys, and vaults | Technical | Keep composite ML-DSA certificates in the lab until `draft-ietf-lamps-pq-composite-sigs` is published as an RFC. | PKI engineering |
+| 68 | Now | Unverified | Organizational | NÚKIB (Czech Republic), CCN (Spain), NSM (Norway), New Zealand NCSC, Singapore CSA, and South Korean cryptographic authorities were not given their own catalog URLs on this run; use the national authority's current publication before citing a parameter set for those jurisdictions. | CISO |
+| 69 | By 31 December 2026 | 1 Govern and discover | Strategic | European Member States complete the first steps, publish a national PQC roadmap, and start high- and medium-risk pilots by 31 December 2026. | Public-sector program owner |
+| 70 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Contractually require suppliers to ship crypto-agility, meaning advanced cryptography can be upgraded without a material product change. | Procurement and legal, with the CISO |
+| 71 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Put crypto-agility and a PQC test requirement into supplier contracts. | Procurement and vendor management |
+| 72 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Apply that supplier crypto-agility clause to SaaS providers that store or transmit the organization's data. | Procurement and vendor management |
+| 73 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Buy only products that identify algorithms explicitly and accept public keys and signatures of several kilobytes. | Procurement |
+| 74 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Include supplier, partner, client, SaaS, and cloud links in the asset map, with protocol, algorithm, key-exchange frequency, hash, and confidentiality lifetime. | CISO and the relationship owner |
+| 75 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | On partner and supplier links that carry long-lived secrets, deploy hybrid key agreement before asking those peers to change authentication certificates. | Network engineering |
+| 76 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Tell clients and partners that connect to you what hybrid group you offer, and record their handshake failures before you require the group. | Product and customer engineering |
+| 77 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Platform practice: use Cloudflare's published client-support census to decide when X25519MLKEM768 can be required of clients on a public site. | Product and customer engineering |
+| 78 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Platform practice: AWS KMS, Certificate Manager, and Secrets Manager offer ML-KEM hybrid key agreement on non-FIPS endpoints, and customers must update clients so the hybrid group is offered. | Product engineering, for client-facing AWS use |
+| 79 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Platform practice: IBM co-developed the algorithms that became ML-KEM and ML-DSA; follow IBM Quantum Safe guidance for IBM-hosted keys, and ignore leftover Kyber-only endpoint settings. | Cloud platform owner |
+| 80 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Do not ask clients or partners to present ordinary public-web X.509 post-quantum certificates in this phase. | PKI engineering |
+| 81 | After discovery and harvest-now protection | 3 Align suppliers, partners, clients, SaaS, and cloud | Peer | Leave pure ML-DSA authentication off public websites until the TLS signature specification is an RFC and the relevant root program allows the certificates. | PKI engineering |
+| 82 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Use ML-DSA from FIPS 204 for general post-quantum signatures. | Cryptography engineering |
+| 83 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Where no stricter profile applies, use ML-DSA-65. | Cryptography engineering |
+| 84 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | For US national security systems, use ML-DSA-87 for general signatures. | National-security system owner |
+| 85 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Use SLH-DSA from FIPS 205 where a stateless hash-based signature is required. | Cryptography engineering |
+| 86 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Lab-issue private ML-DSA chains under RFC 9881, and leave public web trust anchors unchanged in this phase. | PKI engineering |
+| 87 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Encode ML-DSA-44, ML-DSA-65, and ML-DSA-87 in X.509 and CRLs with the RFC 9881 OIDs and with algorithm parameters absent. | PKI engineering |
+| 88 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Keep HashML-DSA out of certificates, CRLs, OCSP, and issuance. | PKI engineering |
+| 89 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Choose either pure SLH-DSA or HashSLH-DSA when the CA key is generated, and keep that mode. | PKI engineering |
+| 90 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Put ML-KEM keys only in certificates whose key usage is keyEncipherment. | PKI engineering |
+| 91 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Issue public S/MIME PQC certificates only as non-hybrid ML-DSA or ML-KEM experiments allowed by S/MIME Baseline Requirements 1.0.11, and follow any stricter root-program rule. | PKI engineering |
+| 92 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Generate ML-KEM and ML-DSA keys inside the module that will use them. | Vault operations |
+| 93 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Store the FIPS seed rather than the expanded private key when the module allows it. | Vault operations |
+| 94 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Keep KEM keys and signature keys in separate objects. | Vault operations |
+| 95 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Sign with the hedged or randomized ML-DSA procedure in FIPS 204. | Cryptography engineering |
+| 96 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Leave the hash inside ML-KEM, ML-DSA, and SLH-DSA as the FIPS specifies it. | Cryptography engineering |
+| 97 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Require CAVP validation of FIPS 203 and FIPS 204 and a CMVP path to FIPS 140-3 before accepting a module for a regulated system. | Procurement and cryptography engineering |
+| 98 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Generate and use ML-KEM and ML-DSA keys in the HSM without exporting expanded private keys by default. | Vault operations |
+| 99 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Technical | Size APIs and stores for ML-DSA signatures of about 3 to 5 KB and for SLH-DSA signatures of tens of kilobytes. | Application owners |
+| 100 | After hybrid key establishment | 4 Move signatures, certificates, keys, and vaults | Organizational | Store an algorithm identifier with each key so the classical half of a hybrid can be retired without re-issuing every object by hand. | Vault operations |
+| 101 | Deprecate around 2030; disallow by 2035 | 5 Finish on the published dates | Strategic | Plan to deprecate quantum-vulnerable public-key algorithms around 2030 and to disallow them by 2035, using the approach in the IR 8547 draft until NIST publishes a final report. | CISO |
+| 102 | By the end of 2030 | 5 Finish on the published dates | Strategic | Migrate European high-risk use cases by the end of 2030. | Public-sector program owner |
+| 103 | Equipment by 31 December 2030; algorithms by 31 December 2031 | 5 Finish on the published dates | Strategic | Phase out US national security equipment that cannot support CNSA 2.0 by 31 December 2030, and mandate CNSA 2.0 algorithms by 31 December 2031 unless an exception says otherwise. | National-security system owner |
+| 104 | By 2033 | 5 Finish on the published dates | Strategic | For US national security web, browser, and cloud services, support and prefer CNSA 2.0 and use it exclusively by 2033. | National-security system owner |
+| 105 | By 2035 | 5 Finish on the published dates | Strategic | Complete the European transition for as many systems as practical by 2035. | Public-sector program owner |
+| 106 | Through the dates in ITSM.40.001 | 5 Finish on the published dates | Strategic | Canadian government systems follow ITSM.40.001 through the dates in that roadmap. | Canadian federal system owner |
+| 107 | Ongoing | 5 Finish on the published dates | Strategic | Migration method, as distinct from algorithm choice, may follow ETSI TC CYBER quantum-safe migration publications. | Enterprise architecture |
+| 108 | Ongoing | 5 Finish on the published dates | Organizational | International product certifications still track ISO/IEC JTC 1/SC 27, which lags the NIST FIPS. | Product security |
+| 109 | Ongoing | 5 Finish on the published dates | Organizational | X.509 directory and PKI changes still track ITU-T Study Group 17. | PKI engineering |
 
 ## Appendix: sources
 
