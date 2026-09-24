@@ -13,7 +13,8 @@ Rewrite `docs/pqc-regulated-instructions.md` from the live pages in `pqc/sources
 2. Extract only instructions a regulated organization can act on: algorithms, parameters, timelines, protocols, certificates, keys, hashes, vaults, and starting-phase duties.
 3. Replace the whole markdown file. Do not append a second copy of an old run.
 4. Open a pull request when the file changes. Leave the branch unchanged when every fetched page still supports the current bullets.
-5. Do not edit `pqc/sources.json` except to replace a dead URL with the successor page on the same organization's site. Record that replacement as its own bullet.
+5. Email the finished markdown file on every run, including a run that does not change the paper. Send it with the connected Gmail account `avivizel@gmail.com` to `aviv@il.ibm.com`. Attach `docs/pqc-regulated-instructions.md` as `pqc-regulated-instructions.md` (`text/markdown`). The plain-text body states the run date, whether the paper changed, and the next run date. Do not paste the paper into the body.
+6. Do not edit `pqc/sources.json` except to replace a dead URL with the successor page on the same organization's site. Record that replacement as its own bullet.
 
 ## Bullet rules
 

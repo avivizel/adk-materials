@@ -35,6 +35,11 @@ resource "cursor_platform_workflow" "pqc_instruction_paper" {
   action = [
     {
       git_pr = {}
+    },
+    {
+      mcp = {
+        server = "Gmail"
+      }
     }
   ]
 }
