@@ -1,0 +1,300 @@
+{
+  "catalogVersion": "2026-09-24",
+  "purpose": "Authoritative and operational sources the PQC instruction agent must fetch on every run. Regulatory and standards entries set requirements. Implementer entries are platform practice only.",
+  "sources": [
+    {
+      "id": "nist-pqc",
+      "name": "NIST PQC project",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+    },
+    {
+      "id": "fips-203",
+      "name": "NIST FIPS 203 ML-KEM",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/fips/203/final"
+    },
+    {
+      "id": "fips-204",
+      "name": "NIST FIPS 204 ML-DSA",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/fips/204/final"
+    },
+    {
+      "id": "fips-205",
+      "name": "NIST FIPS 205 SLH-DSA",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/fips/205/final"
+    },
+    {
+      "id": "sp-800-208",
+      "name": "NIST SP 800-208 LMS and XMSS",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/sp/800/208/final"
+    },
+    {
+      "id": "sp-800-227",
+      "name": "NIST SP 800-227 KEMs",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/sp/800/227/final"
+    },
+    {
+      "id": "ir-8547",
+      "name": "NIST IR 8547 transition draft",
+      "role": "standards",
+      "jurisdiction": "united-states",
+      "url": "https://csrc.nist.gov/pubs/ir/8547/ipd"
+    },
+    {
+      "id": "ir-8545",
+      "name": "NIST IR 8545 HQC selection",
+      "role": "standards",
+      "jurisdiction": "international-algorithm",
+      "url": "https://csrc.nist.gov/pubs/ir/8545/final"
+    },
+    {
+      "id": "nist-nccoe",
+      "name": "NIST NCCoE Migration to PQC",
+      "role": "standards",
+      "jurisdiction": "united-states",
+      "url": "https://www.nccoe.nist.gov/projects/migration-post-quantum-cryptography"
+    },
+    {
+      "id": "nsa-cnsa",
+      "name": "NSA CNSA 2.0",
+      "role": "regulator",
+      "jurisdiction": "united-states-nss",
+      "url": "https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/"
+    },
+    {
+      "id": "cnsa-faq",
+      "name": "NSA CNSA 2.0 FAQ",
+      "role": "regulator",
+      "jurisdiction": "united-states-nss",
+      "url": "https://media.defense.gov/2022/Sep/07/2003071836/-1/-1/0/CSI_CNSA_2.0_FAQ_.PDF"
+    },
+    {
+      "id": "cisa",
+      "name": "CISA",
+      "role": "regulator",
+      "jurisdiction": "united-states",
+      "url": "https://www.cisa.gov/"
+    },
+    {
+      "id": "eu-2024-1101",
+      "name": "European Commission Recommendation (EU) 2024/1101",
+      "role": "regulator",
+      "jurisdiction": "european-union",
+      "url": "https://eur-lex.europa.eu/eli/reco/2024/1101/oj/eng"
+    },
+    {
+      "id": "eu-roadmap",
+      "name": "EU NIS Cooperation Group PQC roadmap",
+      "role": "regulator",
+      "jurisdiction": "european-union",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/eu-reinforces-its-cybersecurity-post-quantum-cryptography"
+    },
+    {
+      "id": "enisa",
+      "name": "ENISA",
+      "role": "regulator",
+      "jurisdiction": "european-union",
+      "url": "https://www.enisa.europa.eu/"
+    },
+    {
+      "id": "bsi",
+      "name": "BSI Germany",
+      "role": "regulator",
+      "jurisdiction": "germany",
+      "url": "https://www.bsi.bund.de/"
+    },
+    {
+      "id": "anssi",
+      "name": "ANSSI France",
+      "role": "regulator",
+      "jurisdiction": "france",
+      "url": "https://cyber.gouv.fr/"
+    },
+    {
+      "id": "nlncsa",
+      "name": "NLNCSA Netherlands",
+      "role": "regulator",
+      "jurisdiction": "netherlands",
+      "url": "https://www.nlcsa.nl/"
+    },
+    {
+      "id": "ncsc-uk",
+      "name": "UK NCSC",
+      "role": "regulator",
+      "jurisdiction": "united-kingdom",
+      "url": "https://www.ncsc.gov.uk/paper/next-steps-in-preparing-for-post-quantum-cryptography"
+    },
+    {
+      "id": "ncsc-uk-timelines",
+      "name": "UK NCSC migration timelines",
+      "role": "regulator",
+      "jurisdiction": "united-kingdom",
+      "url": "https://www.ncsc.gov.uk/sites/default/files/pdfs/publication/pqc-migration-timelines.pdf"
+    },
+    {
+      "id": "cccs",
+      "name": "Canadian Centre for Cyber Security",
+      "role": "regulator",
+      "jurisdiction": "canada",
+      "url": "https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001"
+    },
+    {
+      "id": "asd",
+      "name": "Australian Signals Directorate",
+      "role": "regulator",
+      "jurisdiction": "australia",
+      "url": "https://www.cyber.gov.au/"
+    },
+    {
+      "id": "cryptrec",
+      "name": "CRYPTREC Japan",
+      "role": "regulator",
+      "jurisdiction": "japan",
+      "url": "https://www.cryptrec.go.jp/en.html"
+    },
+    {
+      "id": "incd",
+      "name": "Israel National Cyber Directorate",
+      "role": "regulator",
+      "jurisdiction": "israel",
+      "url": "https://www.gov.il/BlobFolder/generalpage/quantum_computing/he/Best%20Practices%20-%20Organizational%20Cyber%20Readiness%20to%20the%20Post-Quantum%20Age%20v.1.85.pdf"
+    },
+    {
+      "id": "bank-of-israel",
+      "name": "Bank of Israel Banking Supervision",
+      "role": "regulator",
+      "jurisdiction": "israel-banking",
+      "url": "https://www.boi.org.il/en/economic-roles/supervision-and-regulation/letters/letter202501en"
+    },
+    {
+      "id": "ietf-rfc9954",
+      "name": "IETF RFC 9954",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc9954"
+    },
+    {
+      "id": "ietf-rfc10024",
+      "name": "IETF RFC 10024",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc10024"
+    },
+    {
+      "id": "ietf-rfc9881",
+      "name": "IETF RFC 9881",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc9881"
+    },
+    {
+      "id": "ietf-rfc9909",
+      "name": "IETF RFC 9909",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc9909"
+    },
+    {
+      "id": "ietf-rfc9935",
+      "name": "IETF RFC 9935",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc9935"
+    },
+    {
+      "id": "ietf-rfc9763",
+      "name": "IETF RFC 9763",
+      "role": "standards",
+      "jurisdiction": "internet",
+      "url": "https://www.rfc-editor.org/rfc/rfc9763"
+    },
+    {
+      "id": "cabf-smc013",
+      "name": "CA/Browser Forum Ballot SMC013",
+      "role": "standards",
+      "jurisdiction": "public-pki",
+      "url": "https://cabforum.org/2025/07/02/ballot-smc-013/"
+    },
+    {
+      "id": "etsi",
+      "name": "ETSI TC CYBER QSC",
+      "role": "standards",
+      "jurisdiction": "europe",
+      "url": "https://www.etsi.org/"
+    },
+    {
+      "id": "iso-sc27",
+      "name": "ISO/IEC JTC 1/SC 27",
+      "role": "standards",
+      "jurisdiction": "international",
+      "url": "https://www.iso.org/committee/45306.html"
+    },
+    {
+      "id": "itu-t",
+      "name": "ITU-T Study Group 17",
+      "role": "standards",
+      "jurisdiction": "international",
+      "url": "https://www.itu.int/en/ITU-T/studygroups/2025-2028/17/Pages/default.aspx"
+    },
+    {
+      "id": "asc-x9",
+      "name": "ASC X9",
+      "role": "sector",
+      "jurisdiction": "united-states-finance",
+      "url": "https://x9.org/"
+    },
+    {
+      "id": "pci",
+      "name": "PCI Security Standards Council",
+      "role": "sector",
+      "jurisdiction": "payments",
+      "url": "https://www.pcisecuritystandards.org/"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM Quantum Safe",
+      "role": "implementer",
+      "jurisdiction": "platform",
+      "url": "https://www.ibm.com/quantum/quantum-safe"
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud post-quantum TLS",
+      "role": "implementer",
+      "jurisdiction": "platform",
+      "url": "https://docs.cloud.google.com/load-balancing/docs/post-quantum-tls"
+    },
+    {
+      "id": "aws",
+      "name": "AWS ML-KEM TLS",
+      "role": "implementer",
+      "jurisdiction": "platform",
+      "url": "https://aws.amazon.com/blogs/security/ml-kem-post-quantum-tls-now-supported-in-aws-kms-acm-and-secrets-manager/"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft quantum-safe security",
+      "role": "implementer",
+      "jurisdiction": "platform",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare post-quantum Internet",
+      "role": "implementer",
+      "jurisdiction": "platform",
+      "url": "https://blog.cloudflare.com/pq-2025/"
+    }
+  ]
+}
